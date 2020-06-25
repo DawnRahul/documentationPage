@@ -162,6 +162,9 @@ li {
   .main-section-hr {
     display: none;
   }
+  .navbar {
+    width:100%;
+}
   .navbar h3{
     padding-left: 16px;
   }
