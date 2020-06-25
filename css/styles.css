@@ -7,7 +7,7 @@ body {
   margin: 0px;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 code {
   font-family: 'Lato', sans-serif;
@@ -120,7 +120,26 @@ p {
 
 @media screen and (max-width: 400px) {
   /* ********************************** TAG SELECTOR ********************************* */
+html {
+  scroll-behavior: auto;
+}
+li {
+  font-style: italic;
+  line-height: 1.5;
+  text-align: justify;
+}
 
+
+  /* ********************************** ID SELECTOR ********************************* */
+
+  #main {
+    flex-direction: column;
+  }
+  #advertisement-img {
+    display:none;
+  }
+
+  /* ********************************** CLASS SELECTOR ********************************* */
   .code-box {
     background-color: #dfe6e9;
     margin-left: 12px;
@@ -129,8 +148,11 @@ p {
     padding-right: 6px;
     border-radius: 4px;
   }
+  .left-page-section {
+    background-color: 	hsl(210, 80%, 90%);
+  }
   .main-doc {
-    width:  100%;
+    width:  94%;
     height: auto;
     padding-top: 30px;
     padding-bottom: 26px;
@@ -146,18 +168,5 @@ p {
   .navbar h1 {
     text-align: center;
   }
-
-
-  /* ********************************** ID SELECTOR ********************************* */
-
-  #main {
-    flex-direction: column;
-  }
-  #advertisement-img {
-    display:none;
-  }
-
-  /* ********************************** CLASS SELECTOR ********************************* */
-
 
 }
