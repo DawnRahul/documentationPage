@@ -43,8 +43,8 @@ p {
 /* ********************************** ID SELECTOR ********************************* */
 
 #advertisement-img {
-  height: 30%;
-  width: auto;
+  height: auto;
+  width: 280px;
   position: fixed;
   padding-top: 24px;
   padding-left: 40px;
@@ -118,7 +118,7 @@ p {
   zoom: 1.0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {    /* One plus phone was showing desktop version page in portrait mode even when  max-width was 400px */
   /* ********************************** TAG SELECTOR ********************************* */
 html {
   scroll-behavior: auto;
