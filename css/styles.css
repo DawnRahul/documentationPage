@@ -1,0 +1,163 @@
+/* ********************************** TAG SELECTOR ********************************* */
+
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+code {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+hr {
+  margin: 0px;
+}
+h1 {
+  font-family: 'Arvo', serif;
+  font-size: 30px;
+
+}
+h2 {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+h3 {
+  font-family: 'Merriweather', serif;
+}
+li {
+  font-style: italic;
+  line-height: 2;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+}
+
+
+
+
+/* ********************************** ID SELECTOR ********************************* */
+
+#advertisement-img {
+  height: 30%;
+  width: auto;
+  position: fixed;
+  padding-top: 24px;
+  padding-left: 40px;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* ********************************** CLASS SELECTOR ********************************* */
+
+.code-box {
+  background-color: #dfe6e9;
+  padding: 12px;
+  margin: 0 40px;
+  border-radius: 4px;
+}
+.main-doc {
+  width:  75%;
+  height: 100%;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 16px;
+}
+.main-section-hr {
+  margin-right: 2px;
+}
+.navbar {
+  width: 320px;
+  height: 400px;
+  overflow-y: scroll;
+  position: fixed;
+  top:0px;
+  left:0px;
+  position: sticky;
+  margin-top: 0px;
+
+}
+.navbar h1 {
+  position: fixed;
+  top:0px;
+  left:0px;
+  position: sticky;
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  padding-left: 8px;
+  padding-bottom: 25px;
+}
+.nav-link {
+  color: #636e72;
+  font-size: 14px;
+}
+.nav-link h3 {
+  margin: 0px;
+  padding: 16px;
+}
+
+
+/* ******************************************************************************************* */
+/* ***************************************** MEDIA QUERY ************************************* */
+/* ******************************************************************************************* */
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@media screen and (max-width: 400px) {
+  /* ********************************** TAG SELECTOR ********************************* */
+
+  .code-box {
+    background-color: #dfe6e9;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+  }
+  .main-doc {
+    width:  100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .main-section-hr {
+    display: none;
+  }
+  .navbar h3{
+    padding-left: 16px;
+  }
+  .navbar h1 {
+    text-align: center;
+  }
+
+
+  /* ********************************** ID SELECTOR ********************************* */
+
+  #main {
+    flex-direction: column;
+  }
+  #advertisement-img {
+    display:none;
+  }
+
+  /* ********************************** CLASS SELECTOR ********************************* */
+
+
+}
